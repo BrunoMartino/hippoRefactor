@@ -1,0 +1,163 @@
+body {
+    font-size: 1em;
+}
+
+.navbar .nav-link,
+.btn-login {
+    font-size: 1.15em;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.show {
+    color: var(--bs-primary);
+}
+
+.navbar .nav-link.show .ti-chevron-down {
+    transform: rotate(-180deg);
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.text-blue-dark {
+    color: var(--bs-blue-dark)
+}
+
+.btn-live-pre:hover {
+    border-color: var(--bs-orange);
+    color: white;
+    background-color: var(--bs-orange);
+}
+
+.bg-square-1,
+.bg-square-2 {
+    max-width: 1500px;
+    margin: 0 auto;
+    background-image: url(../images/teste/teste-bg.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: top 130px left;
+}
+
+.bg-square-1 {
+    background-image: url(../images/teste/teste-bg.png);
+    background-position: bottom 100px right;
+}
+
+.bg-orange {
+    background-color: var(--bs-orange);
+}
+
+.owl-dots {
+    /* background-color: red; */
+    text-align: center;
+    padding-top: 15px;
+}
+
+.owl-dots button.owl-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+}
+
+.owl-dots button.owl-dot.active {
+    background-color: #000;
+}
+
+.owl-dots button.owl-dot:focus {
+    outline: none;
+}
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+
+.owl-nav button:focus {
+    outline: none;
+}
+
+.img-user-footer {
+    width: 60px;
+    height: 60px;
+    margin: 0 -4px;
+    /* border: 1px solid #2d323e */
+    box-shadow: 0 0 2px #000;
+}
+
+@media (min-width: 765px) {
+    .dropdown-menu.content-dd.dropdown-menu-end.dropdown-menu-animate-up.show {
+        min-width: 350px;
+    }
+}
+
+/*  */
+@media (max-width: 765px) {
+    .lp-legend-top {
+        font-size: 13px !important;
+    }
+
+    .lp-legend-top svg {
+        max-width: 20px;
+        max-height: 20px;
+    }
+
+    .h1-header div {
+        display: inline;
+    }
+
+    .p-header {
+        font-size: 17px !important;
+        margin-top: 0 !important;
+        padding-top: 5px !important;
+
+    }
+
+    .btn-live-pre.btn-lg div,
+    .btn-primary.btn-lg div,
+    .btn-light.btn-lg div {
+        font-size: 16px !important;
+    }
+
+    .por-que-escolher p {
+        font-size: 16px !important;
+    }
+
+    .lista-oq-ter li {
+        font-size: 16px !important;
+    }
+
+    .lista-oq-ter .bg-orange svg {
+        width: 13px;
+        height: 13px;
+    }
+
+    .secao-perguntas p.fs-6 {
+        font-size: 15px !important;
+    }
+
+    .secao-perguntas .accordion-body {
+        font-size: 14px !important;
+    }
+
+    .btn-submit-plan.fs-5 {
+        font-size: 16px !important;
+    }
+    .qtd .qtd-exibir {
+        width: 100%;
+    }
+}

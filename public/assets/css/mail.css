@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap');
+
+:root {
+    --bs-orange: #ff621d;
+    /* --bs-primary: #0853FC; */
+    --bs-body-font-family: "Blinker", sans-serif;
+}
+
+.mail {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: var(--bs-body-font-family);
+}
+
+.mail .header-mail {
+    background-color: var(--bs-primary);
+    font-family: var(--bs-body-font-family);
+    border-bottom: 5px solid var(--bs-orange);
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.mail .header-mail img {
+    margin: 0 auto
+}
+
+.text-orange {
+    color: var(--bs-orange);
+}
+
+.text-primary {
+    color: var(--bs-primary);
+}
+
+.mail .body-mail {
+    padding: 30px;
+}
+
+.mail-title {
+    font-size: 30px;
+}
